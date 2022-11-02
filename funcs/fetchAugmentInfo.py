@@ -1,8 +1,4 @@
-from fetchMatchInfo import *
-
-
-def fetch_augment_info(region, summoner_name):
-    match_info_dictionary = fetch_match_info(region, summoner_name)
+def fetch_augment_info(match_info_dictionary):
     i = 1
     augments = {}
     for match in list(match_info_dictionary):

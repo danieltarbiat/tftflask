@@ -1,8 +1,4 @@
-from fetchMatchInfo import *
-
-
-def fetch_most_common_trait(region, summoner_name):
-    match_info_dictionary = fetch_match_info(region, summoner_name)
+def fetch_most_common_trait(match_info_dictionary):
     i = 1
     matches_trait_info = {}
     for match in match_info_dictionary:
@@ -58,6 +54,3 @@ def fetch_most_common_trait(region, summoner_name):
                         elif nested[values] == 3:
                             count_of_trait_style[trait_name][0][3] += 1
     return count_of_trait_style, filtered_trait_info
-
-
-print(fetch_most_common_trait(region,summoner_name))

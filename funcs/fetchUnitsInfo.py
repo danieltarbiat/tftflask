@@ -1,8 +1,4 @@
-from fetchMatchInfo import *
-
-
-def fetch_units_info(region, summoner_name):
-    match_info_dictionary = fetch_match_info(region, summoner_name)
+def fetch_units_info(match_info_dictionary):
     a = 1
     average_unit_placement = {}
     for match in list(match_info_dictionary):
