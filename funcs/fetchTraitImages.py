@@ -2,21 +2,21 @@ from urllib.request import Request, urlopen
 import json
 
 
-def fetch_unit_images(dictionary, json_url, path_url):
-    unit_image_links = {}
+def fetch_trait_images(dictionary, json_url, path_url):
+    trait_image_links = {}
     request = Request(json_url, headers={"User-Agent": "Mozilla/5.0"})
     response = urlopen(request).read()
     data_json = json.loads(response)
-    for unit in dictionary:
+    for trait in dictionary:
         for element in data_json:
             if element == "setData":
                 for items in data_json[element]:
                     for properties in items:
-                        if properties == "champions":
+                        if properties == "traits":
                             for values in items[properties]:
-                                if values["apiName"] == unit:
+                                if values["apiName"] == trait:
                                     path = values["icon"].lower()
-                                    end = path.find(".dds")
+                                    end = path.find(".tex")
                                     path = path[:end] + ".png"
-                                    unit_image_links[unit] = path_url + path
-    return unit_image_links
+                                    trait_image_links[trait] = path_url + path
+    return trait_image_links
