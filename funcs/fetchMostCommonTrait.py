@@ -35,7 +35,8 @@ def fetch_most_common_trait(match_info_dictionary):
             for number in properties:
                 average_trait_placement_counter += 1
                 average_trait_placement += number
-        average_trait_placement = average_trait_placement / average_trait_placement_counter
+        average_trait_placement = round(average_trait_placement / average_trait_placement_counter)
+        average_trait_placement = "#"+str(average_trait_placement)
         filtered_trait_info[trait_name] = [(average_trait_placement, average_trait_placement_counter)]
     count_of_trait_style = {}
     for element in trait_info_data:
