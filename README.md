@@ -1,6 +1,6 @@
 # TeamFlaskTactics
 
-## This is an API for the game Teamfight Tactics.
+## This is an API for the game Teamfight Tactics
 
 This project was built with the help of Riots API keys.
 * Fetches the latest 20 matches data from the Riot API key when receiving a post request with the desired summoner name and region.
@@ -31,7 +31,7 @@ pip install riotwatcher
 4. Then you're done and can decide how to display the data.
 
 
-## An example of the recieved data from the API:
+## An example of the recieved data from the API
 
 Augments,
 ```
