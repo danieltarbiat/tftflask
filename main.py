@@ -6,7 +6,7 @@ from riotwatcher import TftWatcher
 from funcs.generateSummonerData import generate_summoner_data
 
 # Initialize
-riotAPIKey = "RGAPI-0216644f-0c34-4ffd-8eeb-977f873453d2"
+riotAPIKey = "Write your Riot developer API key here"
 watcher = TftWatcher(riotAPIKey)
 app = Flask(__name__)
 CORS(app)
