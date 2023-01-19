@@ -14,14 +14,14 @@ This project was built with the help of Riots API keys.
 
 
 ## How to install the project
-1. First you need to install the dependencies
+1. Install the dependencies
 ```
 pip install flask        
 pip install -U flask-cors
 pip install riotwatcher  
 ```
 2. Run the main.py file
-3. Make a post request to the API with the body:
+3. Make a post request to the API with the body
 ```
 {
     "region":"Region here",
