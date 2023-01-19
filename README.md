@@ -7,6 +7,11 @@ This project was built with the help of Riots API keys.
 * Sorts through the data and returns the most played traits, augments, units and items that the summoner has played in the latest 20 matches.
 * Also adds links to images for every trait, augment, unit and item.
 
+```diff
+- This project was made during the set 7.5, but still works as of set 8.0. Though this might change in the future.
+```
+
+
 
 ## How to install the project
 1. First you need to install the dependencies
