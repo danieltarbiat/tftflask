@@ -28,7 +28,7 @@ pip install riotwatcher
     "summonerName":"Summoner name here"
 }
 ```
-4. Then you're done and can decide how to represent the data.
+4. Then you're done and can decide how to display the data.
 
 
 ## An example of the recieved data from the API:
