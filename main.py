@@ -17,7 +17,7 @@ path_url = "https://raw.communitydragon.org/latest/game/"
 
 
 @app.route('/', methods=["GET","POST"])
-def load_page():
+def start_api():
     if request.method == "GET":
         return {"status":{"message":"Forbidden","status_code":403}}
     elif request.method == "POST":
