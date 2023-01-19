@@ -33,7 +33,7 @@ pip install riotwatcher
 
 ## An example of the recieved data from the API:
 
-For augments,
+Augments,
 ```
         "TFT6_Augment_BandOfThieves2": {
             "augmentImage": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/augments/choiceui/bandthieves3.png",
@@ -43,7 +43,7 @@ For augments,
             "timesPlayed": 1
         }
  ```
- For traits,
+ Traits,
  ```
          "Set8_Ace": {
             "averagePlacement": "#5",
@@ -57,7 +57,7 @@ For augments,
                 "Silver": 10
             }
  ```
- For units and items,
+Units and items,
   ```
   "TFT8_Alistar": {
             "averagePlacement": "#4.9",
