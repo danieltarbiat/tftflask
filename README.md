@@ -59,7 +59,9 @@ Augments,
             }
  ```
 Units and items,
-  ```
+
+Note: The value for a specific item in "unitItems" is a dictionary with a key/value pair that is the image asset/amount of times said item has been built.
+ ```
   "TFT8_Alistar": {
             "averagePlacement": "#4.9",
             "playrate": "6.5%",
