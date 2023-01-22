@@ -51,6 +51,8 @@ Augments,
         }
  ```
  Traits,
+ 
+ Note: "traitStyles" is a dictionary with key/value pairs which is the active trait tier/amount of times used.
  ```
          "Set8_Ace": {
             "averagePlacement": "#5",
