@@ -15,14 +15,16 @@ This project was built with the help of Riots API keys.
 
 
 ## How to install the project
-1. Install the dependencies
+1. Clone the repo in a folder. 
+2. Optional: create a virtual environment.
+3. Install the dependencies
 ```
 pip install flask        
 pip install -U flask-cors
 pip install riotwatcher  
 ```
-2. Run the main.py file
-3. Make a post request to the API with the body
+3. Run the main.py file
+4. Make a post request to the API with the body
 ```
 {
     "region":"Region here",
@@ -33,7 +35,7 @@ List of region names(Platform Routing Values) can be found here:
 ```
 https://developer.riotgames.com/docs/tft
 ```
-4. Then you're done and can decide how to display the data.
+5. Then you're done and can decide how to display the data.
 
 
 ## An example of the recieved data from the API
