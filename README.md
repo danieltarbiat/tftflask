@@ -29,6 +29,10 @@ pip install riotwatcher
     "summonerName":"Summoner name here"
 }
 ```
+List of region names(Platform Routing Values) can be found here:
+```
+https://developer.riotgames.com/docs/tft
+```
 4. Then you're done and can decide how to display the data.
 
 
