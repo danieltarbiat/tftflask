@@ -8,7 +8,8 @@ This project was built with the help of Riots API keys.
 * Also adds links to images for every trait, augment, unit and item.
 
 ```diff
-- Project was made during the set 7.5, but still works as of set 8.0. Though this might change in the future.                                                             Is dependant on the CommunityDragon library for fetching image assets.
+- Project was made during the set 7.5, but still works as of set 8.0. Though this might change in the future.
+- Project is dependant on the CommunityDragon library for fetching image assets.
 ```
 
 
