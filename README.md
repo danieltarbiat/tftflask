@@ -8,7 +8,7 @@ This project was built with the help of Riots API keys.
 * Also adds links to images for every trait, augment, unit and item.
 
 ```diff
-- This project was made during the set 7.5, but still works as of set 8.0. Though this might change in the future.
+- Project was made during the set 7.5, but still works as of set 8.0. Though this might change in the future.
 ```
 
 
