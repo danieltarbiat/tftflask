@@ -2,7 +2,7 @@
 
 ## This is an API for the game Teamfight Tactics
 
-This project was built with the help of Riots API keys.
+This project was built with the help of Riots API.
 * Fetches the latest 20 matches data from the Riot API key when receiving a post request with the desired summoner name and region.
 * Sorts through the data and returns the most played traits, augments, units and items that the summoner has played in the latest 20 matches.
 * Also adds links to images for every trait, augment, unit and item.
@@ -35,7 +35,7 @@ List of region names(Platform Routing Values) can be found here:
 ```
 https://developer.riotgames.com/docs/tft
 ```
-5. Then you're done and can decide how to display the data.
+5. Then you're done and can decide how to display the recieved data.
 
 
 ## An example of the recieved data from the API
